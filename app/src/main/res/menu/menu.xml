@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemAddCompany"
+        android:title="@string/item_new_company" />
+    <item
+        android:id="@+id/itemDeleteAll"
+        android:title="@string/item_delete_all" />
+    <item
+        android:id="@+id/itemBack"
+        android:title="Back"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/itemExit"
+        android:title="@string/item_exit" />
+</menu>
